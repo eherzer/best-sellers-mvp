@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A973321F256894B700959AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A973321E256894B700959AAC /* AppDelegate.swift */; };
-		A9733221256894B700959AAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9733220256894B700959AAC /* SceneDelegate.swift */; };
-		A9733223256894B700959AAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9733222256894B700959AAC /* ViewController.swift */; };
-		A9733226256894B700959AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9733224256894B700959AAC /* Main.storyboard */; };
 		A9733228256894B800959AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9733227256894B800959AAC /* Assets.xcassets */; };
 		A973322B256894B800959AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9733229256894B800959AAC /* LaunchScreen.storyboard */; };
 		A9733236256894B800959AAC /* Best_SellersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9733235256894B800959AAC /* Best_SellersTests.swift */; };
@@ -37,9 +34,6 @@
 /* Begin PBXFileReference section */
 		A973321B256894B700959AAC /* Best Sellers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Best Sellers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A973321E256894B700959AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9733220256894B700959AAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A9733222256894B700959AAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A9733225256894B700959AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9733227256894B800959AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A973322A256894B800959AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A973322C256894B800959AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,9 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				A973321E256894B700959AAC /* AppDelegate.swift */,
-				A9733220256894B700959AAC /* SceneDelegate.swift */,
-				A9733222256894B700959AAC /* ViewController.swift */,
-				A9733224256894B700959AAC /* Main.storyboard */,
 				A9733227256894B800959AAC /* Assets.xcassets */,
 				A9733229256894B800959AAC /* LaunchScreen.storyboard */,
 				A973322C256894B800959AAC /* Info.plist */,
@@ -233,7 +224,6 @@
 			files = (
 				A973322B256894B800959AAC /* LaunchScreen.storyboard in Resources */,
 				A9733228256894B800959AAC /* Assets.xcassets in Resources */,
-				A9733226256894B700959AAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9733223256894B700959AAC /* ViewController.swift in Sources */,
 				A973321F256894B700959AAC /* AppDelegate.swift in Sources */,
-				A9733221256894B700959AAC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +284,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A9733224256894B700959AAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9733225256894B700959AAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A9733229256894B800959AAC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
