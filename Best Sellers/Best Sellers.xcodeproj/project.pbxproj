@@ -7,11 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C14F847CD4C9C150D44DE7B /* Pods_Best_SellersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F6D3433989F6E738E6717E /* Pods_Best_SellersTests.framework */; };
+		411B0D9B51EA9A489796233C /* Pods_Best_Sellers_Best_SellersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60CDC5FFA7097E4336CCA3D /* Pods_Best_Sellers_Best_SellersUITests.framework */; };
+		53FBC78A56BFDA5049FBCE39 /* Pods_Best_Sellers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB1527B0A123FA8248B2985 /* Pods_Best_Sellers.framework */; };
 		A973321F256894B700959AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A973321E256894B700959AAC /* AppDelegate.swift */; };
 		A9733228256894B800959AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9733227256894B800959AAC /* Assets.xcassets */; };
 		A973322B256894B800959AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9733229256894B800959AAC /* LaunchScreen.storyboard */; };
 		A9733236256894B800959AAC /* Best_SellersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9733235256894B800959AAC /* Best_SellersTests.swift */; };
 		A9733241256894B800959AAC /* Best_SellersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9733240256894B800959AAC /* Best_SellersUITests.swift */; };
+		A973325A2568965400959AAC /* BestSellerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97332582568965400959AAC /* BestSellerCell.xib */; };
+		A973325B2568965400959AAC /* BestSellerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97332592568965400959AAC /* BestSellerCell.swift */; };
+		A97332622568967000959AAC /* BestSellerPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97332602568967000959AAC /* BestSellerPresenterProtocol.swift */; };
+		A97332632568967000959AAC /* BestSellerViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97332612568967000959AAC /* BestSellerViewProtocol.swift */; };
+		A97332692568968600959AAC /* BestSellerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97332682568968600959AAC /* BestSellerPresenter.swift */; };
+		A973326F2568969200959AAC /* BestSellerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A973326D2568969200959AAC /* BestSellerListVC.swift */; };
+		A97332702568969200959AAC /* BestSellerListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A973326E2568969200959AAC /* BestSellerListVC.xib */; };
+		A9733279256896C000959AAC /* BestSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9733278256896C000959AAC /* BestSeller.swift */; };
+		A9733282256BBF5D00959AAC /* BestSellerServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9733281256BBF5D00959AAC /* BestSellerServiceProtocol.swift */; };
+		A973328A256BC19900959AAC /* BestSellerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9733289256BC19900959AAC /* BestSellerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FB1527B0A123FA8248B2985 /* Pods_Best_Sellers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Best_Sellers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B823370B31A0CAD27304FDA /* Pods-Best Sellers-Best SellersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Best Sellers-Best SellersUITests.debug.xcconfig"; path = "Target Support Files/Pods-Best Sellers-Best SellersUITests/Pods-Best Sellers-Best SellersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3665F249AB88795CF2B2D01B /* Pods-Best Sellers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Best Sellers.release.xcconfig"; path = "Target Support Files/Pods-Best Sellers/Pods-Best Sellers.release.xcconfig"; sourceTree = "<group>"; };
+		48F6D3433989F6E738E6717E /* Pods_Best_SellersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Best_SellersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0D112A87102E44C4ABC483 /* Pods-Best SellersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Best SellersTests.release.xcconfig"; path = "Target Support Files/Pods-Best SellersTests/Pods-Best SellersTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D33FFE38FA5E14D3672E21B /* Pods-Best Sellers-Best SellersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Best Sellers-Best SellersUITests.release.xcconfig"; path = "Target Support Files/Pods-Best Sellers-Best SellersUITests/Pods-Best Sellers-Best SellersUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A973321B256894B700959AAC /* Best Sellers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Best Sellers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A973321E256894B700959AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9733227256894B800959AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +62,19 @@
 		A973323C256894B800959AAC /* Best SellersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Best SellersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9733240256894B800959AAC /* Best_SellersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Best_SellersUITests.swift; sourceTree = "<group>"; };
 		A9733242256894B800959AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97332582568965400959AAC /* BestSellerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BestSellerCell.xib; sourceTree = "<group>"; };
+		A97332592568965400959AAC /* BestSellerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestSellerCell.swift; sourceTree = "<group>"; };
+		A97332602568967000959AAC /* BestSellerPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestSellerPresenterProtocol.swift; sourceTree = "<group>"; };
+		A97332612568967000959AAC /* BestSellerViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestSellerViewProtocol.swift; sourceTree = "<group>"; };
+		A97332682568968600959AAC /* BestSellerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestSellerPresenter.swift; sourceTree = "<group>"; };
+		A973326D2568969200959AAC /* BestSellerListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestSellerListVC.swift; sourceTree = "<group>"; };
+		A973326E2568969200959AAC /* BestSellerListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BestSellerListVC.xib; sourceTree = "<group>"; };
+		A9733278256896C000959AAC /* BestSeller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestSeller.swift; sourceTree = "<group>"; };
+		A9733281256BBF5D00959AAC /* BestSellerServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerServiceProtocol.swift; sourceTree = "<group>"; };
+		A9733289256BC19900959AAC /* BestSellerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerService.swift; sourceTree = "<group>"; };
+		CC27CDBFCA26AB9CD0548FC0 /* Pods-Best Sellers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Best Sellers.debug.xcconfig"; path = "Target Support Files/Pods-Best Sellers/Pods-Best Sellers.debug.xcconfig"; sourceTree = "<group>"; };
+		CFE45C54A285E4A32C085DD1 /* Pods-Best SellersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Best SellersTests.debug.xcconfig"; path = "Target Support Files/Pods-Best SellersTests/Pods-Best SellersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F60CDC5FFA7097E4336CCA3D /* Pods_Best_Sellers_Best_SellersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Best_Sellers_Best_SellersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53FBC78A56BFDA5049FBCE39 /* Pods_Best_Sellers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C14F847CD4C9C150D44DE7B /* Pods_Best_SellersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +98,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411B0D9B51EA9A489796233C /* Pods_Best_Sellers_Best_SellersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9773159E1D19B6825381CE5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC27CDBFCA26AB9CD0548FC0 /* Pods-Best Sellers.debug.xcconfig */,
+				3665F249AB88795CF2B2D01B /* Pods-Best Sellers.release.xcconfig */,
+				1B823370B31A0CAD27304FDA /* Pods-Best Sellers-Best SellersUITests.debug.xcconfig */,
+				4D33FFE38FA5E14D3672E21B /* Pods-Best Sellers-Best SellersUITests.release.xcconfig */,
+				CFE45C54A285E4A32C085DD1 /* Pods-Best SellersTests.debug.xcconfig */,
+				4C0D112A87102E44C4ABC483 /* Pods-Best SellersTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A9733212256894B700959AAC = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +126,8 @@
 				A9733234256894B800959AAC /* Best SellersTests */,
 				A973323F256894B800959AAC /* Best SellersUITests */,
 				A973321C256894B700959AAC /* Products */,
+				9773159E1D19B6825381CE5C /* Pods */,
+				F86B58090CD3B11D853B0846 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,10 +144,13 @@
 		A973321D256894B700959AAC /* Best Sellers */ = {
 			isa = PBXGroup;
 			children = (
+				A9733277256896B500959AAC /* model */,
+				A9733254256895F000959AAC /* modules */,
+				A9733280256BBF3900959AAC /* service */,
 				A973321E256894B700959AAC /* AppDelegate.swift */,
+				A973322C256894B800959AAC /* Info.plist */,
 				A9733227256894B800959AAC /* Assets.xcassets */,
 				A9733229256894B800959AAC /* LaunchScreen.storyboard */,
-				A973322C256894B800959AAC /* Info.plist */,
 			);
 			path = "Best Sellers";
 			sourceTree = "<group>";
@@ -119,6 +173,87 @@
 			path = "Best SellersUITests";
 			sourceTree = "<group>";
 		};
+		A9733254256895F000959AAC /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				A9733255256895F900959AAC /* bestSellerList */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		A9733255256895F900959AAC /* bestSellerList */ = {
+			isa = PBXGroup;
+			children = (
+				A973325F2568965F00959AAC /* protocol */,
+				A97332672568967A00959AAC /* presenter */,
+				A97332562568960100959AAC /* view */,
+			);
+			path = bestSellerList;
+			sourceTree = "<group>";
+		};
+		A97332562568960100959AAC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A97332572568960900959AAC /* cell */,
+				A973326D2568969200959AAC /* BestSellerListVC.swift */,
+				A973326E2568969200959AAC /* BestSellerListVC.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A97332572568960900959AAC /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				A97332592568965400959AAC /* BestSellerCell.swift */,
+				A97332582568965400959AAC /* BestSellerCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		A973325F2568965F00959AAC /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A97332602568967000959AAC /* BestSellerPresenterProtocol.swift */,
+				A97332612568967000959AAC /* BestSellerViewProtocol.swift */,
+				A9733281256BBF5D00959AAC /* BestSellerServiceProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		A97332672568967A00959AAC /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A97332682568968600959AAC /* BestSellerPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		A9733277256896B500959AAC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A9733278256896C000959AAC /* BestSeller.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A9733280256BBF3900959AAC /* service */ = {
+			isa = PBXGroup;
+			children = (
+				A9733289256BC19900959AAC /* BestSellerService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		F86B58090CD3B11D853B0846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FB1527B0A123FA8248B2985 /* Pods_Best_Sellers.framework */,
+				F60CDC5FFA7097E4336CCA3D /* Pods_Best_Sellers_Best_SellersUITests.framework */,
+				48F6D3433989F6E738E6717E /* Pods_Best_SellersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9733245256894B800959AAC /* Build configuration list for PBXNativeTarget "Best Sellers" */;
 			buildPhases = (
+				1140A1CC1F491F14B70C26BC /* [CP] Check Pods Manifest.lock */,
 				A9733217256894B700959AAC /* Sources */,
 				A9733218256894B700959AAC /* Frameworks */,
 				A9733219256894B700959AAC /* Resources */,
+				63CE4DEE8DCA061FB70D6B2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,6 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9733248256894B800959AAC /* Build configuration list for PBXNativeTarget "Best SellersTests" */;
 			buildPhases = (
+				47A66CF1CCC89EB80262014A /* [CP] Check Pods Manifest.lock */,
 				A973322D256894B800959AAC /* Sources */,
 				A973322E256894B800959AAC /* Frameworks */,
 				A973322F256894B800959AAC /* Resources */,
@@ -161,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A973324B256894B800959AAC /* Build configuration list for PBXNativeTarget "Best SellersUITests" */;
 			buildPhases = (
+				A40F3CBA29D91EB159941F43 /* [CP] Check Pods Manifest.lock */,
 				A9733238256894B800959AAC /* Sources */,
 				A9733239256894B800959AAC /* Frameworks */,
 				A973323A256894B800959AAC /* Resources */,
+				4871C092BA72F57D74B042A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +364,8 @@
 			files = (
 				A973322B256894B800959AAC /* LaunchScreen.storyboard in Resources */,
 				A9733228256894B800959AAC /* Assets.xcassets in Resources */,
+				A973325A2568965400959AAC /* BestSellerCell.xib in Resources */,
+				A97332702568969200959AAC /* BestSellerListVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,12 +385,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1140A1CC1F491F14B70C26BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Best Sellers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47A66CF1CCC89EB80262014A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Best SellersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4871C092BA72F57D74B042A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Best Sellers-Best SellersUITests/Pods-Best Sellers-Best SellersUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Best Sellers-Best SellersUITests/Pods-Best Sellers-Best SellersUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Best Sellers-Best SellersUITests/Pods-Best Sellers-Best SellersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63CE4DEE8DCA061FB70D6B2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Best Sellers/Pods-Best Sellers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Best Sellers/Pods-Best Sellers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Best Sellers/Pods-Best Sellers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A40F3CBA29D91EB159941F43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Best Sellers-Best SellersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9733217256894B700959AAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97332692568968600959AAC /* BestSellerPresenter.swift in Sources */,
+				A973325B2568965400959AAC /* BestSellerCell.swift in Sources */,
+				A9733282256BBF5D00959AAC /* BestSellerServiceProtocol.swift in Sources */,
+				A97332632568967000959AAC /* BestSellerViewProtocol.swift in Sources */,
 				A973321F256894B700959AAC /* AppDelegate.swift in Sources */,
+				A973328A256BC19900959AAC /* BestSellerService.swift in Sources */,
+				A97332622568967000959AAC /* BestSellerPresenterProtocol.swift in Sources */,
+				A973326F2568969200959AAC /* BestSellerListVC.swift in Sources */,
+				A9733279256896C000959AAC /* BestSeller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +666,7 @@
 		};
 		A9733246256894B800959AAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC27CDBFCA26AB9CD0548FC0 /* Pods-Best Sellers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -431,6 +685,7 @@
 		};
 		A9733247256894B800959AAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3665F249AB88795CF2B2D01B /* Pods-Best Sellers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +704,7 @@
 		};
 		A9733249256894B800959AAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE45C54A285E4A32C085DD1 /* Pods-Best SellersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +726,7 @@
 		};
 		A973324A256894B800959AAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0D112A87102E44C4ABC483 /* Pods-Best SellersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +748,7 @@
 		};
 		A973324C256894B800959AAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B823370B31A0CAD27304FDA /* Pods-Best Sellers-Best SellersUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -510,6 +768,7 @@
 		};
 		A973324D256894B800959AAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D33FFE38FA5E14D3672E21B /* Pods-Best Sellers-Best SellersUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
