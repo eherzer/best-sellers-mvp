@@ -12,6 +12,16 @@
 		A973322B256894B800959AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9733229256894B800959AAC /* LaunchScreen.storyboard */; };
 		A9733236256894B800959AAC /* Best_SellersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9733235256894B800959AAC /* Best_SellersTests.swift */; };
 		A9733241256894B800959AAC /* Best_SellersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9733240256894B800959AAC /* Best_SellersUITests.swift */; };
+		A973325A2568965400959AAC /* BestSellerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97332582568965400959AAC /* BestSellerCell.xib */; };
+		A973325B2568965400959AAC /* BestSellerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97332592568965400959AAC /* BestSellerCell.swift */; };
+		A97332622568967000959AAC /* BestSellerPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97332602568967000959AAC /* BestSellerPresenterProtocol.swift */; };
+		A97332632568967000959AAC /* BestSellerViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97332612568967000959AAC /* BestSellerViewProtocol.swift */; };
+		A97332692568968600959AAC /* BestSellerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97332682568968600959AAC /* BestSellerPresenter.swift */; };
+		A973326F2568969200959AAC /* BestSellerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A973326D2568969200959AAC /* BestSellerListVC.swift */; };
+		A97332702568969200959AAC /* BestSellerListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A973326E2568969200959AAC /* BestSellerListVC.xib */; };
+		A9733279256896C000959AAC /* BestSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9733278256896C000959AAC /* BestSeller.swift */; };
+		A9733282256BBF5D00959AAC /* BestSellerServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9733281256BBF5D00959AAC /* BestSellerServiceProtocol.swift */; };
+		A973328A256BC19900959AAC /* BestSellerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9733289256BC19900959AAC /* BestSellerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +53,16 @@
 		A973323C256894B800959AAC /* Best SellersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Best SellersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9733240256894B800959AAC /* Best_SellersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Best_SellersUITests.swift; sourceTree = "<group>"; };
 		A9733242256894B800959AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97332582568965400959AAC /* BestSellerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BestSellerCell.xib; sourceTree = "<group>"; };
+		A97332592568965400959AAC /* BestSellerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestSellerCell.swift; sourceTree = "<group>"; };
+		A97332602568967000959AAC /* BestSellerPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestSellerPresenterProtocol.swift; sourceTree = "<group>"; };
+		A97332612568967000959AAC /* BestSellerViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestSellerViewProtocol.swift; sourceTree = "<group>"; };
+		A97332682568968600959AAC /* BestSellerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestSellerPresenter.swift; sourceTree = "<group>"; };
+		A973326D2568969200959AAC /* BestSellerListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestSellerListVC.swift; sourceTree = "<group>"; };
+		A973326E2568969200959AAC /* BestSellerListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BestSellerListVC.xib; sourceTree = "<group>"; };
+		A9733278256896C000959AAC /* BestSeller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestSeller.swift; sourceTree = "<group>"; };
+		A9733281256BBF5D00959AAC /* BestSellerServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerServiceProtocol.swift; sourceTree = "<group>"; };
+		A9733289256BC19900959AAC /* BestSellerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +113,13 @@
 		A973321D256894B700959AAC /* Best Sellers */ = {
 			isa = PBXGroup;
 			children = (
+				A9733277256896B500959AAC /* model */,
+				A9733254256895F000959AAC /* modules */,
+				A9733280256BBF3900959AAC /* service */,
 				A973321E256894B700959AAC /* AppDelegate.swift */,
+				A973322C256894B800959AAC /* Info.plist */,
 				A9733227256894B800959AAC /* Assets.xcassets */,
 				A9733229256894B800959AAC /* LaunchScreen.storyboard */,
-				A973322C256894B800959AAC /* Info.plist */,
 			);
 			path = "Best Sellers";
 			sourceTree = "<group>";
@@ -117,6 +140,77 @@
 				A9733242256894B800959AAC /* Info.plist */,
 			);
 			path = "Best SellersUITests";
+			sourceTree = "<group>";
+		};
+		A9733254256895F000959AAC /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				A9733255256895F900959AAC /* bestSellerList */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		A9733255256895F900959AAC /* bestSellerList */ = {
+			isa = PBXGroup;
+			children = (
+				A973325F2568965F00959AAC /* protocol */,
+				A97332672568967A00959AAC /* presenter */,
+				A97332562568960100959AAC /* view */,
+			);
+			path = bestSellerList;
+			sourceTree = "<group>";
+		};
+		A97332562568960100959AAC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A97332572568960900959AAC /* cell */,
+				A973326D2568969200959AAC /* BestSellerListVC.swift */,
+				A973326E2568969200959AAC /* BestSellerListVC.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A97332572568960900959AAC /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				A97332592568965400959AAC /* BestSellerCell.swift */,
+				A97332582568965400959AAC /* BestSellerCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		A973325F2568965F00959AAC /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A97332602568967000959AAC /* BestSellerPresenterProtocol.swift */,
+				A97332612568967000959AAC /* BestSellerViewProtocol.swift */,
+				A9733281256BBF5D00959AAC /* BestSellerServiceProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		A97332672568967A00959AAC /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A97332682568968600959AAC /* BestSellerPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		A9733277256896B500959AAC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A9733278256896C000959AAC /* BestSeller.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A9733280256BBF3900959AAC /* service */ = {
+			isa = PBXGroup;
+			children = (
+				A9733289256BC19900959AAC /* BestSellerService.swift */,
+			);
+			path = service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +318,8 @@
 			files = (
 				A973322B256894B800959AAC /* LaunchScreen.storyboard in Resources */,
 				A9733228256894B800959AAC /* Assets.xcassets in Resources */,
+				A973325A2568965400959AAC /* BestSellerCell.xib in Resources */,
+				A97332702568969200959AAC /* BestSellerListVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97332692568968600959AAC /* BestSellerPresenter.swift in Sources */,
+				A973325B2568965400959AAC /* BestSellerCell.swift in Sources */,
+				A9733282256BBF5D00959AAC /* BestSellerServiceProtocol.swift in Sources */,
+				A97332632568967000959AAC /* BestSellerViewProtocol.swift in Sources */,
 				A973321F256894B700959AAC /* AppDelegate.swift in Sources */,
+				A973328A256BC19900959AAC /* BestSellerService.swift in Sources */,
+				A97332622568967000959AAC /* BestSellerPresenterProtocol.swift in Sources */,
+				A973326F2568969200959AAC /* BestSellerListVC.swift in Sources */,
+				A9733279256896C000959AAC /* BestSeller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
