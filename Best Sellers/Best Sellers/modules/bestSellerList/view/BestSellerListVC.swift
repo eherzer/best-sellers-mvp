@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class BestSellerListVC: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
@@ -60,7 +61,7 @@ extension BestSellerListVC: UICollectionViewDataSource {
             
             cell.lbTitle.text = bestSeller.title
             cell.lbAuthor.text = bestSeller.author
-            //TODO cell.imgCover.image = ;
+            cell.imgCover.kf.setImage(with: URL(string: bestSeller.book_image))
         }
         
         return cell
@@ -73,4 +74,15 @@ extension BestSellerListVC: UICollectionViewDataSource {
 
 extension BestSellerListVC: UICollectionViewDelegate {
     //TODO
+}
+
+extension BestSellerListVC: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        let cellWidth: CGFloat = 140.0
+        
+        let numberOfCells = floor(collectionView.frame.size.width / cellWidth)
+        let edgeInsets = (collectionView.frame.size.width - (numberOfCells * cellWidth)) / (numberOfCells + 1)
+        
+        return UIEdgeInsets(top: 15, left: edgeInsets, bottom: 0, right: edgeInsets)
+    }
 }
