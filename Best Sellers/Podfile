@@ -8,6 +8,7 @@ target 'Best Sellers' do
   # Pods for Best Sellers
   pod 'Alamofire'
   pod 'Kingfisher'
+  pod 'SwiftyJSON'
 
   target 'Best SellersTests' do
     inherit! :search_paths
