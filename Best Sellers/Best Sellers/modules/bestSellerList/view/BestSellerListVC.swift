@@ -73,7 +73,13 @@ extension BestSellerListVC: UICollectionViewDataSource {
 }
 
 extension BestSellerListVC: UICollectionViewDelegate {
-    //TODO
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let bestSeller = bestSellers[indexPath.row]
+        
+        let bestSellerDetailsVC = BestSellerDetailsVC(bestSeller: bestSeller)
+        bestSellerDetailsVC.modalPresentationStyle = .fullScreen
+        self.present(bestSellerDetailsVC, animated: true, completion: nil)
+    }
 }
 
 extension BestSellerListVC: UICollectionViewDelegateFlowLayout {
