@@ -3,13 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0C14F847CD4C9C150D44DE7B /* Pods_Best_SellersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F6D3433989F6E738E6717E /* Pods_Best_SellersTests.framework */; };
 		411B0D9B51EA9A489796233C /* Pods_Best_Sellers_Best_SellersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60CDC5FFA7097E4336CCA3D /* Pods_Best_Sellers_Best_SellersUITests.framework */; };
 		53FBC78A56BFDA5049FBCE39 /* Pods_Best_Sellers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB1527B0A123FA8248B2985 /* Pods_Best_Sellers.framework */; };
+		A96A351E256C7F6200E346CA /* BestSellerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A351C256C7F6200E346CA /* BestSellerDetailsVC.swift */; };
+		A96A351F256C7F6200E346CA /* BestSellerDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A96A351D256C7F6200E346CA /* BestSellerDetailsVC.xib */; };
 		A973321F256894B700959AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A973321E256894B700959AAC /* AppDelegate.swift */; };
 		A9733228256894B800959AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9733227256894B800959AAC /* Assets.xcassets */; };
 		A973322B256894B800959AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9733229256894B800959AAC /* LaunchScreen.storyboard */; };
@@ -51,6 +53,8 @@
 		48F6D3433989F6E738E6717E /* Pods_Best_SellersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Best_SellersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0D112A87102E44C4ABC483 /* Pods-Best SellersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Best SellersTests.release.xcconfig"; path = "Target Support Files/Pods-Best SellersTests/Pods-Best SellersTests.release.xcconfig"; sourceTree = "<group>"; };
 		4D33FFE38FA5E14D3672E21B /* Pods-Best Sellers-Best SellersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Best Sellers-Best SellersUITests.release.xcconfig"; path = "Target Support Files/Pods-Best Sellers-Best SellersUITests/Pods-Best Sellers-Best SellersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A96A351C256C7F6200E346CA /* BestSellerDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerDetailsVC.swift; sourceTree = "<group>"; };
+		A96A351D256C7F6200E346CA /* BestSellerDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BestSellerDetailsVC.xib; sourceTree = "<group>"; };
 		A973321B256894B700959AAC /* Best Sellers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Best Sellers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A973321E256894B700959AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9733227256894B800959AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,8 +119,16 @@
 				CFE45C54A285E4A32C085DD1 /* Pods-Best SellersTests.debug.xcconfig */,
 				4C0D112A87102E44C4ABC483 /* Pods-Best SellersTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		A96A351B256C7EFD00E346CA /* bestSellerDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A96A351C256C7F6200E346CA /* BestSellerDetailsVC.swift */,
+				A96A351D256C7F6200E346CA /* BestSellerDetailsVC.xib */,
+			);
+			path = bestSellerDetails;
 			sourceTree = "<group>";
 		};
 		A9733212256894B700959AAC = {
@@ -176,6 +188,7 @@
 		A9733254256895F000959AAC /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				A96A351B256C7EFD00E346CA /* bestSellerDetails */,
 				A9733255256895F900959AAC /* bestSellerList */,
 			);
 			path = modules;
@@ -364,6 +377,7 @@
 			files = (
 				A973322B256894B800959AAC /* LaunchScreen.storyboard in Resources */,
 				A9733228256894B800959AAC /* Assets.xcassets in Resources */,
+				A96A351F256C7F6200E346CA /* BestSellerDetailsVC.xib in Resources */,
 				A973325A2568965400959AAC /* BestSellerCell.xib in Resources */,
 				A97332702568969200959AAC /* BestSellerListVC.xib in Resources */,
 			);
@@ -501,6 +515,7 @@
 				A973328A256BC19900959AAC /* BestSellerService.swift in Sources */,
 				A97332622568967000959AAC /* BestSellerPresenterProtocol.swift in Sources */,
 				A973326F2568969200959AAC /* BestSellerListVC.swift in Sources */,
+				A96A351E256C7F6200E346CA /* BestSellerDetailsVC.swift in Sources */,
 				A9733279256896C000959AAC /* BestSeller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

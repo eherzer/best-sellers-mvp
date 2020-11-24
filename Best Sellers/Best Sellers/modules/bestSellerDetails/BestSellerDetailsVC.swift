@@ -8,22 +8,35 @@
 import UIKit
 
 class BestSellerDetailsVC: UIViewController {
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var lbTitle: UILabel!
+    @IBOutlet weak var lbAuthor: UILabel!
+    @IBOutlet weak var lbSynopse: UILabel!
+    @IBOutlet weak var imgBackArrow: UIImageView!
 
+    private var bestSeller: BestSeller
+    
+    init(bestSeller: BestSeller) {
+        self.bestSeller = bestSeller
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        imageView.kf.setImage(with: URL(string: bestSeller.book_image))
+        lbTitle.text = bestSeller.title
+        lbAuthor.text = bestSeller.author
+        lbSynopse.text = bestSeller.description
+        
+        imgBackArrow.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.backClicked)))
     }
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @objc func backClicked() {
+        self.dismiss(animated: true, completion: nil)
     }
-    */
-
 }
