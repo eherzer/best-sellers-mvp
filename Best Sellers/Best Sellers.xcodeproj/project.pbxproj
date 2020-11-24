@@ -15,6 +15,9 @@
 		A96A353A256D003D00E346CA /* BestSellerServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A3539256D003D00E346CA /* BestSellerServiceMock.swift */; };
 		A96A3543256D019E00E346CA /* BestSellerServiceErrorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A3542256D019E00E346CA /* BestSellerServiceErrorMock.swift */; };
 		A96A354C256D050900E346CA /* BestSellerServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A354B256D050900E346CA /* BestSellerServiceTests.swift */; };
+		A96A355E256D0AD600E346CA /* BestSellerListVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A355D256D0AD600E346CA /* BestSellerListVCTests.swift */; };
+		A96A3569256D0B8A00E346CA /* BestSellerListVCMockSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A3568256D0B8A00E346CA /* BestSellerListVCMockSuccess.swift */; };
+		A96A3571256D0EBE00E346CA /* BestSellerListVCMockError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A3570256D0EBE00E346CA /* BestSellerListVCMockError.swift */; };
 		A973321F256894B700959AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A973321E256894B700959AAC /* AppDelegate.swift */; };
 		A9733228256894B800959AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9733227256894B800959AAC /* Assets.xcassets */; };
 		A973322B256894B800959AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9733229256894B800959AAC /* LaunchScreen.storyboard */; };
@@ -61,6 +64,9 @@
 		A96A3539256D003D00E346CA /* BestSellerServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerServiceMock.swift; sourceTree = "<group>"; };
 		A96A3542256D019E00E346CA /* BestSellerServiceErrorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerServiceErrorMock.swift; sourceTree = "<group>"; };
 		A96A354B256D050900E346CA /* BestSellerServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerServiceTests.swift; sourceTree = "<group>"; };
+		A96A355D256D0AD600E346CA /* BestSellerListVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerListVCTests.swift; sourceTree = "<group>"; };
+		A96A3568256D0B8A00E346CA /* BestSellerListVCMockSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerListVCMockSuccess.swift; sourceTree = "<group>"; };
+		A96A3570256D0EBE00E346CA /* BestSellerListVCMockError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerListVCMockError.swift; sourceTree = "<group>"; };
 		A973321B256894B700959AAC /* Best Sellers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Best Sellers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A973321E256894B700959AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9733227256894B800959AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,6 +146,7 @@
 		A96A3538256D001C00E346CA /* mock */ = {
 			isa = PBXGroup;
 			children = (
+				A96A3565256D0B5B00E346CA /* modules */,
 				A96A3541256D018B00E346CA /* service */,
 			);
 			path = mock;
@@ -160,6 +167,55 @@
 				A96A354B256D050900E346CA /* BestSellerServiceTests.swift */,
 			);
 			path = service;
+			sourceTree = "<group>";
+		};
+		A96A355A256D0A8400E346CA /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				A96A355B256D0A9300E346CA /* bestSellerList */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		A96A355B256D0A9300E346CA /* bestSellerList */ = {
+			isa = PBXGroup;
+			children = (
+				A96A355C256D0A9F00E346CA /* view */,
+			);
+			path = bestSellerList;
+			sourceTree = "<group>";
+		};
+		A96A355C256D0A9F00E346CA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A96A355D256D0AD600E346CA /* BestSellerListVCTests.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A96A3565256D0B5B00E346CA /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				A96A3566256D0B6100E346CA /* bestSellerList */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		A96A3566256D0B6100E346CA /* bestSellerList */ = {
+			isa = PBXGroup;
+			children = (
+				A96A3567256D0B6700E346CA /* view */,
+			);
+			path = bestSellerList;
+			sourceTree = "<group>";
+		};
+		A96A3567256D0B6700E346CA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A96A3568256D0B8A00E346CA /* BestSellerListVCMockSuccess.swift */,
+				A96A3570256D0EBE00E346CA /* BestSellerListVCMockError.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		A9733212256894B700959AAC = {
@@ -202,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				A96A3538256D001C00E346CA /* mock */,
+				A96A355A256D0A8400E346CA /* modules */,
 				A96A354A256D048D00E346CA /* service */,
 				A9733235256894B800959AAC /* Best_SellersTests.swift */,
 				A9733237256894B800959AAC /* Info.plist */,
@@ -557,10 +614,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96A355E256D0AD600E346CA /* BestSellerListVCTests.swift in Sources */,
+				A96A3569256D0B8A00E346CA /* BestSellerListVCMockSuccess.swift in Sources */,
 				A9733236256894B800959AAC /* Best_SellersTests.swift in Sources */,
 				A96A354C256D050900E346CA /* BestSellerServiceTests.swift in Sources */,
 				A96A353A256D003D00E346CA /* BestSellerServiceMock.swift in Sources */,
 				A96A3543256D019E00E346CA /* BestSellerServiceErrorMock.swift in Sources */,
+				A96A3571256D0EBE00E346CA /* BestSellerListVCMockError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
