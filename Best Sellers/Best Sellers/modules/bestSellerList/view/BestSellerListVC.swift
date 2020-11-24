@@ -59,7 +59,7 @@ extension BestSellerListVC: UICollectionViewDataSource {
         if let cell = cell as? BestSellerCell {
             let bestSeller = bestSellers[indexPath.row]
             
-            cell.lbTitle.text = bestSeller.title
+            cell.lbTitle.text = bestSeller.title.capitalizingFirstLetter()
             cell.lbAuthor.text = bestSeller.author
             cell.imgCover.kf.setImage(with: URL(string: bestSeller.book_image))
         }
