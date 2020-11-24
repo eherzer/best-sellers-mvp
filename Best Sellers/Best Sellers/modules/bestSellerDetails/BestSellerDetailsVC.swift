@@ -29,7 +29,7 @@ class BestSellerDetailsVC: UIViewController {
         super.viewDidLoad()
 
         imageView.kf.setImage(with: URL(string: bestSeller.book_image))
-        lbTitle.text = bestSeller.title
+        lbTitle.text = bestSeller.title.capitalizingFirstLetter()
         lbAuthor.text = bestSeller.author
         lbSynopse.text = bestSeller.description
         
